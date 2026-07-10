@@ -4,11 +4,14 @@
 [![ML Framework](https://img.shields.io/badge/machine--learning-scikit--learn-orange.svg)](https://scikit-learn.org/)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-An end-to-end Machine Learning project to analyze bank customer demographics and account activity to predict customer churn. Customer churn occurs when a customer stops doing business with the bank, and predicting this is critical for designing proactive customer retention strategies.
+An end-to-end Machine Learning project to analyze bank customer demographics and account activity to predict customer churn. 
 
 ---
 
 ## 📋 Table of Contents
+- [Domain & Problem Statement](#-domain--problem-statement)
+- [Key Features](#-key-features)
+- [Technologies Used](#-technologies-used)
 - [Project Overview](#-project-overview)
 - [Dataset Specifications](#-dataset-specifications)
 - [Exploratory Data Analysis (EDA)](#-exploratory-data-analysis-eda)
@@ -16,6 +19,36 @@ An end-to-end Machine Learning project to analyze bank customer demographics and
 - [Model Training & Evaluation](#-model-training--evaluation)
 - [Making Predictions](#-making-predictions)
 - [How to Run](#-how-to-run)
+
+---
+
+## 🌐 Domain & Problem Statement
+
+### **Domain:**
+* **Finance & Banking**: Customer relationship management and churn analytics.
+
+### **Problem Statement:**
+* Customer churn occurs when customers stop using a bank's services. Acquiring new customers costs significantly more than retaining existing ones. 
+* This project aims to build a classification model that predicts whether a customer is likely to exit the bank (`churn = 1`) or stay (`churn = 0`) using customer attributes like credit score, age, balance, tenure, and product usage. By identifying churn risks early, the bank can offer targeted loyalty incentives to improve retention rates.
+
+---
+
+## ⚡ Key Features
+
+* **Exploratory Data Analysis (EDA):** Deep dive into customer behaviors (Age distributions, Churn correlations, Balance vs. Age patterns).
+* **Robust Preprocessing Pipeline:** Handled categorical encoding (One-Hot Encoding) and standard normalization scaling for numerical attributes.
+* **Predictive Classifier:** Implemented and evaluated a Logistic Regression model to classify churn with high validation scores.
+* **Customer Inference Example:** Quick inference test to predict churn probability for new/unseen customer profiles.
+
+---
+
+## 🛠️ Technologies Used
+
+* **Language:** Python 3.8+
+* **Data Handling:** Pandas, NumPy
+* **Visualization:** Matplotlib, Seaborn
+* **Machine Learning:** Scikit-Learn (preprocessing, scaling, linear model, metrics)
+* **Environment:** Jupyter Notebook / Google Colab
 
 ---
 
