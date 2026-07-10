@@ -58,19 +58,19 @@ Before building the predictive model, we explored the dataset to understand the 
 ### 1. Customer Churn Distribution
 The dataset is imbalanced, with approximately **20.4%** of the customers churned (`1`) and **79.6%** retained (`0`).
 <p align="center">
-  <img src="customer_churn_distribution.png" width="550" alt="Customer Churn Distribution"/>
+  <img src="assets/customer_churn_distribution.png" width="550" alt="Customer Churn Distribution"/>
 </p>
 
 ### 2. Age Distribution
 Most of the bank's customers fall within the **30 to 45** age bracket, which is a key demographic group for financial products.
 <p align="center">
-  <img src="age_distribution.png" width="550" alt="Age Distribution"/>
+  <img src="assets/age_distribution.png" width="550" alt="Age Distribution"/>
 </p>
 
 ### 3. Age vs. Balance
 Analyzing the relationship between customer age and account balance shows a wide distribution of balances across all age groups, with a significant cluster of customers having zero balance.
 <p align="center">
-  <img src="age_vs_balance.png" width="550" alt="Age vs Balance"/>
+  <img src="assets/age_vs_balance.png" width="550" alt="Age vs Balance"/>
 </p>
 
 ---
